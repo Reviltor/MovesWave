@@ -1,3 +1,5 @@
+from dotenv import load_dotenv
+load_dotenv()
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ChatMember
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackQueryHandler, ContextTypes
 import sqlite3
@@ -11,7 +13,7 @@ logger = logging.getLogger(__name__)
 
 # Константы
 import os
-TOKEN = os.getenv("7658945797:AAEAmqR9g_cMyWzIZfrPlGJx7FfGaeUJX9I")
+TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_IDS = [6409536793, 5917382999]
 CHANNEL = "mov1eswave"
 DB_NAME = "movie_codes.db"
