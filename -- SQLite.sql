@@ -1,4 +1,3 @@
-UPDATE media SET image = 'images/default.jpg' WHERE image IS NULL;
 
 DELETE FROM media WHERE code = '8967';
 DELETE FROM media WHERE code = 'MCFT';
