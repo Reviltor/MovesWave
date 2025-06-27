@@ -4,7 +4,7 @@ DELETE FROM media WHERE code = 'MCFT';
 DELETE FROM media WHERE code = 'BBRK';
 DELETE FROM media WHERE title = 'Капитан Америка';
 DELETE FROM media WHERE code = 'WTCH';
-
+DELETE FROM media WHERE code = '4863';
 
 SELECT * FROM media WHERE title LIKE '%Stranger Things (2016)%' OR code = '9755';
 SELECT * FROM media WHERE title LIKE '%Dune: Part Two (2024)%' OR code = '9538';
